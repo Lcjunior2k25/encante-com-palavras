@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Palavras que Encantam – eBook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff7f5;
+      color: #333;
+    }
+    header {
+      background: #d54b63;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 2rem;
+    }
+    .ebook-img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+    }
+    .benefits {
+      background: #ffeaea;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    .cta {
+      background: #d54b63;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    .cta button {
+      background: white;
+      color: #d54b63;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1rem;
+      color: #888;
+    }
+    .pix {
+      margin-top: 1rem;
+      background: #fff;
+      padding: 1rem;
+      border: 1px dashed #d54b63;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Palavras que Encantam</h1>
+    <p>O guia infalível para conversas que conquistam corações</p>
+  </header>
+
+  <div class="container">
+    <img src="https://i.imgur.com/Kcvp3EN.jpg" alt="Capa do eBook Palavras que Encantam" class="ebook-img"/>
+
+    <h2>Sobre o eBook</h2>
+    <p>
+      Descubra como encantar seu parceiro(a) com palavras, conversas e expressões que despertam emoções reais. 
+      Com exemplos práticos e frases poderosas, esse eBook vai transformar sua forma de se comunicar no amor.
+    </p>
+
+    <div class="benefits">
+      <h3>✅ O que você vai encontrar:</h3>
+      <ul>
+        <li>Frases que tocam o coração</li>
+        <li>Vocabulário que cria conexão emocional</li>
+        <li>7 tipos de conversas que fortalecem o relacionamento</li>
+        <li>Dicas para deixar seu amor sem palavras</li>
+      </ul>
+    </div>
+
+    <div class="cta">
+      <h2>Adquira agora por apenas R$19,90</h2>
+      <p>Pagamento único, acesso imediato ao eBook digital (PDF)</p>
+      
+      <div class="pix">
+        <strong>🔐 CHAVE PIX:</strong><br/>
+        <em>lessajunior715@gmail.com (email, CPF ou aleatória)</em>
+      </div>
+
+      <br/>
+      <button onclick="alert('Após o pagamento, envie o comprovante para nosso WhatsApp!')">
+        COMPRAR AGORA
+      </button>
+    </div>
+
+    <footer>
+      © 2025 – Todos os direitos reservados.
+    </footer>
+  </div>
+
+</body>
+</html>
